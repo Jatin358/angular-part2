@@ -1,0 +1,44 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular5 blog",
+      "text": "Shall do at 6 pm"
+    },
+    {
+      "id": 2,
+      "title": "Call Ravi",
+      "text": "Track the new submissions"
+    },
+    {
+      "title": "Capitalism",
+      "text": "Mark Twain",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "Read React Documentation",
+      "text": "Shall do at 8 pm"
+    },
+    {
+      "id": 5,
+      "title": "Learn material design UI",
+      "text": "Shall do on Weekends"
+    },
+    {
+      "id": 6,
+      "title": "Learn NODE JS",
+      "text": "will start from next Monday"
+    },
+    {
+      "id": 7,
+      "title": "Read Python and Django",
+      "text": "will do day after tomorrow"
+    },
+    {
+      "id": 8,
+      "title": "Read Angular.io",
+      "text": "will do tomorrow"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <div class="login-container">
+        <div class="text-center mb-4">
+            <h2>LOGIN</h2>
+        </div>
+        <form [formGroup]="loginForm" (ngSubmit)="loginSubmit()">
+            <div class="column">
+                <div class="col mb-4">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Username</mat-label>
+                        <input matInput placeholder="Enter Username" autocomplete="off" type="text"
+                        formControlName="username">
+                    </mat-form-field>
+
+                </div>
+                <div class="col mb-4">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Password</mat-label>
+                        <input matInput placeholder="Enter Password" autocomplete="off" type="password"
+                        formControlName="password">
+                    </mat-form-field>
+                </div>
+                <div class="col mb-4 text-center">
+                    <button class="btn btn-primary" [disabled]="loginForm.invalid">Submit</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
